@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+
+@font-face{
+	font-family:"menma";
+	src: url('font/HuiFontP109.ttf');
+}
+
+body{
+    font-family:"menma";
+	background-color:#efffff;
+}
+
+#main{
+	margin:auto;
+	width:600px;
+	height:500px;
+	background-color: #dbedff;
+	border-radius: 6px;
+	box-shadow:3px 3px 0px #c1e0ff;
+}
+
+#main h1{
+	font-family:"menma";
+	font-size: 45px;
+	text-align: center;
+	width:600px;
+	height:55px;
+	background-color: #b2d8ff;
+	border-radius: 6px 6px 0px 0px;
+}
+
+#log input{
+	font-family:"Meiryo UI";
+	font-size: 25px;
+	width:70%;
+	padding:15px;
+	margin-top: 15px;
+	border-radius: 6px;
+}
+
+#log button{
+	font-family:"menma";
+	font-size: 25px;
+	width:70%;
+	padding:15px;
+	margin-top: 15px;
+	border-radius: 6px;
+}
+
+#button{
+	background-color: #c6ffff;
+	box-shadow: 3px 3px 0px #b2d8ff;
+	outline: none;
+	border-style: none;
+}
+
+#log{
+	text-align: center;
+}
+
+#error{
+	font-size: 20px;
+	color: #ff7f7f;
+	width:300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-top: 20px;
+}
+
+#msg{
+	font-size: 20px;
+	width:300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-top: 20px;
+}
