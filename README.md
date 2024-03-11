@@ -1,1 +1,1 @@
-﻿# yse2021_instructor
+﻿# yse_internship
