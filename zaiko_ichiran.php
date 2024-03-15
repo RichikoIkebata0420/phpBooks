@@ -13,10 +13,10 @@
 //①セッションを開始する
 
 //②SESSIONの「login」フラグがfalseか判定する。「login」フラグがfalseの場合はif文の中に入る。
-if (/* ②の処理を書く */){
+//if (/* ②の処理を書く */){
 	//③SESSIONの「error2」に「ログインしてください」と設定する。
 	//④ログイン画面へ遷移する。
-}
+//}
 
 //⑤データベースへ接続し、接続情報を変数に保存する
 
@@ -44,9 +44,9 @@ if (/* ②の処理を書く */){
 				 * ⑧SESSIONの「success」にメッセージが設定されているかを判定する。
 				 * 設定されていた場合はif文の中に入る。
 				 */ 
-				if(/* ⑧の処理を書く */){
+			//	if(/* ⑧の処理を書く */){
 					//⑨SESSIONの「success」の中身を表示する。
-				}
+			//	}
 				?>
 			</div>
 			
@@ -81,20 +81,20 @@ if (/* ②の処理を書く */){
 					<tbody>
 						<?php
 						//⑩SQLの実行結果の変数から1レコードのデータを取り出す。レコードがない場合はループを終了する。
-						while(/* ⑩の処理を書く */){
+						//while(/* ⑩の処理を書く */){
 							//⑪extract変数を使用し、1レコードのデータを渡す。
 
-							echo "<tr id='book'>";
-							echo "<td id='check'><input type='checkbox' name='books[]'value="./* ⑫IDを設定する */."></td>";
-							echo "<td id='id'>/* ⑬IDを表示する */</td>";
-							echo "<td id='title'>/* ⑭titleを表示する */</td>";
-							echo "<td id='author'>/* ⑮authorを表示する */</td>";
-							echo "<td id='date'>/* ⑯salesDateを表示する */</td>";
-							echo "<td id='price'>/* ⑰priceを表示する */</td>";
-							echo "<td id='stock'>/* ⑱stockを表示する */</td>";
+							//echo "<tr id='book'>";
+							//echo "<td id='check'><input type='checkbox' name='books[]'value="./* ⑫IDを設定する */."></td>";
+							//echo "<td id='id'>/* ⑬IDを表示する */</td>";
+							//echo "<td id='title'>/* ⑭titleを表示する */</td>";
+							//echo "<td id='author'>/* ⑮authorを表示する */</td>";
+							//echo "<td id='date'>/* ⑯salesDateを表示する */</td>";
+							//echo "<td id='price'>/* ⑰priceを表示する */</td>";
+							//echo "<td id='stock'>/* ⑱stockを表示する */</td>";
 
-							echo "</tr>";
-						}
+							//echo "</tr>";
+						//}
 						?>
 					</tbody>
 				</table>
